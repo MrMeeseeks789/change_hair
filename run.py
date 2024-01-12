@@ -6,6 +6,7 @@ from PIL import Image
 import torchvision.transforms as transforms
 import cv2
 
+# comment
 def similar(G1,B1,R1,G2,B2,R2):
     ar=[]
     if G2 > 30:
